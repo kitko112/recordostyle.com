@@ -126,7 +126,7 @@ export default function AddressForm() {
     formValues.email, formValues.projectDescription,
     formValues.isVisual, formValues.isDesign,
     formValues.isSound, formValues.isDistribution,
-    formValues.isConsulting
+    formValues.isConsulting, errors.checkbox, errors.email, errors.projectDescription
   ])
 
   return (
